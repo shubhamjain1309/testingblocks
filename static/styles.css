@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#block-container {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block[data-weight="1"] {
+    background-color: #ffcccb;
+}
+
+.block[data-weight="2"] {
+    background-color: #add8e6;
+}
+
+.block[data-weight="3"] {
+    background-color: #90ee90;
+}
